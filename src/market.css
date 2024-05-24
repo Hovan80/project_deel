@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    padding: 0 2%;
+    min-height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkgrey;
+    border: 1px;
+}
+.nav-ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 20px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+.sidebar{
+    border: 1px;
+    padding: 10px;
+
+}

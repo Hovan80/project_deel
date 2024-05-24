@@ -1,0 +1,36 @@
+@import "bootstrap/scss/bootstrap";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.logo{
+    g{
+        fill: rgb(39, 51, 67);
+    }
+}
+.header-logo{
+    width: 64px;
+}
+.footer-logo{
+    width: 100px;
+}
+.logo-wrapper{
+    color: rgb(39, 51, 67);
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+@include media-breakpoint-up(lg){
+    .searchbar{
+        width: 500px;
+    }
+}
+.card-author{
+    text-decoration: none;
+    color: --bs-light-text-emphasis;
+
+    a{
+        color: inherit;
+        text-decoration: inherit;
+    }
+}
